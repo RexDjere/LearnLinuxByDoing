@@ -47,36 +47,36 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Configure PAM     
       
  &emsp;__Group D: Networkking (12%)__      
-Configure networking and hostname resolution statically or dynamically  
-Configure network services to start automatically at boot  
-Implement packet filtering  
-Start, stop, and check the status of network services  
-Statically route IP traffic  
-Synchronize time using other network peers  
+&emsp;&emsp;Configure networking and hostname resolution statically or dynamically  
+&emsp;&emsp;Configure network services to start automatically at boot  
+&emsp;&emsp;Implement packet filtering  
+&emsp;&emsp;Start, stop, and check the status of network services  
+&emsp;&emsp;Statically route IP traffic  
+&emsp;&emsp;Synchronize time using other network peers  
      
  &emsp;__Group E: Service Configuration (20%)__    
-Configure a caching DNS server  
-Maintain a DNS zone  
-Configure email aliases  
-Configure SSH servers and clients  
-Restrict access to the HTTP proxy server  
-Configure an IMAP and IMAPS service  
-Query and modify the behavior of system services at various operating modes  
-Configure an HTTP server  
-Configure HTTP server log files  
-Configure a database server  
-Restrict access to a web page  
-Manage and configure containers  
-Manage and configure Virtual Machines  
+&emsp;&emsp;Configure a caching DNS server  
+&emsp;&emsp;Maintain a DNS zone  
+&emsp;&emsp;Configure email aliases  
+&emsp;&emsp;Configure SSH servers and clients  
+&emsp;&emsp;Restrict access to the HTTP proxy server  
+&emsp;&emsp;Configure an IMAP and IMAPS service  
+&emsp;&emsp;Query and modify the behavior of system services at various operating modes  
+&emsp;&emsp;Configure an HTTP server  
+&emsp;&emsp;Configure HTTP server log files  
+&emsp;&emsp;Configure a database server  
+&emsp;&emsp;Restrict access to a web page  
+&emsp;&emsp;Manage and configure containers  
+&emsp;&emsp;Manage and configure Virtual Machines  
     
  &emsp;__Group F: Storage Management (13%)__   
- List, create, delete, and modify physical storage partitions  
-Manage and configure LVM storage  
-Create and configure encrypted storage  
-Configure systems to mount file systems at or during boot  
-Configure and manage swap space  
-Create and manage RAID devices  
-Configure systems to mount file systems on demand  
-Create, manage and diagnose advanced file system permissions  
-Setup user and group disk quotas for filesystems  
-Create and configure file systems      
+&emsp;&emsp;List, create, delete, and modify physical storage partitions  
+&emsp;&emsp;Manage and configure LVM storage  
+C&emsp;&emsp;reate and configure encrypted storage  
+&emsp;&emsp;Configure systems to mount file systems at or during boot  
+&emsp;&emsp;Configure and manage swap space  
+&emsp;&emsp;Create and manage RAID devices  
+&emsp;&emsp;Configure systems to mount file systems on demand  
+&emsp;&emsp;Create, manage and diagnose advanced file system permissions  
+&emsp;&emsp;Setup user and group disk quotas for filesystems  
+&emsp;&emsp;Create and configure file systems      
