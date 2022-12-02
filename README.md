@@ -19,7 +19,7 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Read, and use system documentation  
 &emsp;&emsp;Manage access to the root account  
   
- &emsp;__Group B: Operation of Running Systems (20%)__
+ &emsp;__Group B: Operation of Running Systems (20%)__  
 &emsp;&emsp;Boot, reboot, and shut down a system safely  
 &emsp;&emsp;Boot or change system into different operating modes  
 &emsp;&emsp;Install, configure and troubleshoot bootloaders  
