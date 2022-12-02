@@ -37,7 +37,14 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Manage Software  
 &emsp;&emsp;Identify the component of a Linux distribution that a file belongs to  
       
- &emsp;__Group C: User and Group Management (10%)__    
+ &emsp;__Group C: User and Group Management (10%)__   
+ Create, delete, and modify local user accounts  
+Create, delete, and modify local groups and group memberships  
+Manage system-wide environment profiles  
+Manage template user environment  
+Configure user resource limits  
+Manage user privileges  
+Configure PAM     
       
  &emsp;__Group D: Networkking (12%)__      
    
