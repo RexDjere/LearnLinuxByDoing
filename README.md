@@ -5,8 +5,8 @@ Learn Linux by performing tasks.
 ### Learn Linux by repeatedly performing tasks based on the Linux Foundation Certified System Administrator (LFCS) Exam Objectives.
 
 LFCS Objectives:  
-  Essential Commands (25%)__
-  	Log into local & remote graphical and text mode consoles__
+  Essential Commands (25%)  
+  	Log into local & remote graphical and text mode consoles  
   	Search for files__
 	Evaluate and compare the basic file system features and options__
 	Compare and manipulate file content__
