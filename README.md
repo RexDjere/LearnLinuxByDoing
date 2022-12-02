@@ -18,6 +18,7 @@ Learn Linux by performing tasks.
 &emsp;&emsp;List, set, and change standard file permissions  
 &emsp;&emsp;Read, and use system documentation  
 &emsp;&emsp;Manage access to the root account  
+  
  &emsp;__Group B: Operation of Running Systems (20%)__
 &emsp;&emsp;Boot, reboot, and shut down a system safely  
 &emsp;&emsp;Boot or change system into different operating modes  
