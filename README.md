@@ -47,7 +47,36 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Configure PAM     
       
  &emsp;__Group D: Networkking (12%)__      
-   
- &emsp;__Group E: Service Configuration (20%)__  
-       
- &emsp;__Group F: Storage Management (13%)__      
+Configure networking and hostname resolution statically or dynamically  
+Configure network services to start automatically at boot  
+Implement packet filtering  
+Start, stop, and check the status of network services  
+Statically route IP traffic  
+Synchronize time using other network peers  
+     
+ &emsp;__Group E: Service Configuration (20%)__    
+Configure a caching DNS server  
+Maintain a DNS zone  
+Configure email aliases  
+Configure SSH servers and clients  
+Restrict access to the HTTP proxy server  
+Configure an IMAP and IMAPS service  
+Query and modify the behavior of system services at various operating modes  
+Configure an HTTP server  
+Configure HTTP server log files  
+Configure a database server  
+Restrict access to a web page  
+Manage and configure containers  
+Manage and configure Virtual Machines  
+    
+ &emsp;__Group F: Storage Management (13%)__   
+ List, create, delete, and modify physical storage partitions  
+Manage and configure LVM storage  
+Create and configure encrypted storage  
+Configure systems to mount file systems at or during boot  
+Configure and manage swap space  
+Create and manage RAID devices  
+Configure systems to mount file systems on demand  
+Create, manage and diagnose advanced file system permissions  
+Setup user and group disk quotas for filesystems  
+Create and configure file systems      
