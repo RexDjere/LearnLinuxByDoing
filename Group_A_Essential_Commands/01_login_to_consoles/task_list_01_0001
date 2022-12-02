@@ -1,0 +1,30 @@
+Task List 01_1
+
+Ptah is logged into his Linux machine. What key combination will he used to switch to virtual terminal 2 (vt2).
+CTRL+ALT+F2
+
+Charlie "Bird" Parker, the CEO of Flatted-Fifth Computing, wants to close his Terminal Emulator. What commands will he execute?
+exit
+
+Lebron works for the IT Department for the Los Angeles LAkers. He wants to login to his work computer from his home laptop using a graphical user interface (GUI). 
+Both machines run Fedora Linux. Name one Free and Open-Source (FOSS) program that he could use to perform this task.
+TightVNC
+
+Mariah Carey is the Director of Sony Music's IT Department. She wants to login to her work Linux machine from her home Linux machine using the command line.
+What daemon and protocol will she use?
+OpenSSH deamon and the Secure Shell (SSH) protocol.
+
+John Coltrane is the Head of Quality Assurance at Yanagisawa Saxophones in Japan.
+He has used Tailscale to set up a Virtual Private Network for the Tokyo office.
+His colleague Miles Dewey wants to know his Tailscale ip address on his work dektop machine.
+What command will John tell Miles to run?
+ip a | grep tailscale
+
+Michael Brecker is the Dean of the Information Technology Department at the University of Manhattan.
+He wants to ssh into his home Linux machine from work.
+His username is mikebreckersax and his home ip address is 8.8.8.8.
+What command will Michael run on his work Linux machine to login to his home machine?
+ssh mikebreckersax@8.8.8.8
+
+
+
