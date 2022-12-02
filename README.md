@@ -38,13 +38,13 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Identify the component of a Linux distribution that a file belongs to  
       
  &emsp;__Group C: User and Group Management (10%)__   
- Create, delete, and modify local user accounts  
-Create, delete, and modify local groups and group memberships  
-Manage system-wide environment profiles  
-Manage template user environment  
-Configure user resource limits  
-Manage user privileges  
-Configure PAM     
+&emsp;&emsp;Create, delete, and modify local user accounts  
+&emsp;&emsp;Create, delete, and modify local groups and group memberships  
+&emsp;&emsp;Manage system-wide environment profiles  
+&emsp;&emsp;Manage template user environment  
+&emsp;&emsp;Configure user resource limits  
+&emsp;&emsp;Manage user privileges  
+&emsp;&emsp;Configure PAM     
       
  &emsp;__Group D: Networkking (12%)__      
    
