@@ -35,7 +35,8 @@ Learn Linux by performing tasks.
 &emsp;&emsp;Manage the startup process and services (In Services Configuration)  
 &emsp;&emsp;List and identify SELinux/AppArmor file and process contexts  
 &emsp;&emsp;Manage Software  
-&emsp;&emsp;Identify the component of a Linux distribution that a file belongs to    
+&emsp;&emsp;Identify the component of a Linux distribution that a file belongs to  
+      
  &emsp;__Group C: User and Group Management (10%)__    
       
  &emsp;__Group D: Networkking (12%)__      
