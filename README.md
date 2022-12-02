@@ -72,7 +72,7 @@ Learn Linux by performing tasks.
  &emsp;__Group F: Storage Management (13%)__   
 &emsp;&emsp;List, create, delete, and modify physical storage partitions  
 &emsp;&emsp;Manage and configure LVM storage  
-&emsp;&emsp;Create and configure encrypted storage  
+&emsp;&emsp;CGoureate and configure encrypted storage  
 &emsp;&emsp;Configure systems to mount file systems at or during boot  
 &emsp;&emsp;Configure and manage swap space  
 &emsp;&emsp;Create and manage RAID devices  
