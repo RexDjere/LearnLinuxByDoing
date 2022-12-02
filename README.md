@@ -5,21 +5,21 @@ Learn Linux by performing tasks.
 ### Learn Linux by repeatedly performing tasks based on the Linux Foundation Certified System Administrator (LFCS) Exam Objectives.
 
 LFCS Objectives:  
-  Essential Commands (25%)  
+Essential Commands (25%)  
   	Log into local & remote graphical and text mode consoles  
-  	Search for files__
-	Evaluate and compare the basic file system features and options__
-	Compare and manipulate file content__
-	Use input-output redirection (e.g. >, >>, |, 2>)__
-	Analyze text using basic regular expressions__
-	Archive, backup, compress, unpack, and uncompress files__
-	Create, delete, copy, and move files and directories__
-	Create and manage hard and soft links__
-	List, set, and change standard file permissions__
-	Read, and use system documentation__
-	Manage access to the root account__
-  Operation of Running Systems (20%)__
-  User and Group Management (10%)__
-  Networkking (12%)__
-  Service Configuration (20%)__
-  Storage Management (13%)__
+  	Search for files  
+	Evaluate and compare the basic file system features and options  
+	Compare and manipulate file content  
+	Use input-output redirection (e.g. >, >>, |, 2>)  
+	Analyze text using basic regular expressions  
+	Archive, backup, compress, unpack, and uncompress files  
+	Create, delete, copy, and move files and directories  
+	Create and manage hard and soft links  
+	List, set, and change standard file permissions  
+	Read, and use system documentation  
+	Manage access to the root account  
+  Operation of Running Systems (20%)  
+  User and Group Management (10%)  
+  Networkking (12%)  
+  Service Configuration (20%)  
+  Storage Management (13%)  
