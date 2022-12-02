@@ -5,7 +5,7 @@ Learn Linux by performing tasks.
 ### Learn Linux by repeatedly performing tasks based on the Linux Foundation Certified System Administrator (LFCS) Exam Objectives.
 
 LFCS Objectives:  
-&emsp;Group A: Essential Commands (25%)  
+&emsp;_Group A: Essential Commands (25%)_  
 &emsp;&emsp;Log into local & remote graphical and text mode consoles  
 &emsp;&emsp;Search for files  
 &emsp;&emsp;Evaluate and compare the basic file system features and options  
@@ -18,8 +18,8 @@ LFCS Objectives:
 &emsp;&emsp;List, set, and change standard file permissions  
 &emsp;&emsp;Read, and use system documentation  
 &emsp;&emsp;Manage access to the root account  
- &emsp;Operation of Running Systems (20%)  
- &emsp;User and Group Management (10%)  
- &emsp;Networkking (12%)  
- &emsp;Service Configuration (20%)  
- &emsp;Storage Management (13%)  
+ &emsp;Group B: Operation of Running Systems (20%)  
+ &emsp;Group C: User and Group Management (10%)  
+ &emsp;Group D: Networkking (12%)  
+ &emsp;Group E: Service Configuration (20%)  
+ &emsp;Group F: Storage Management (13%)  
