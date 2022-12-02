@@ -6,7 +6,7 @@ Learn Linux by performing tasks.
 
 LFCS Objectives:  
 Essential Commands (25%)  
-  	Log into local & remote graphical and text mode consoles  
+&emsp;Log into local & remote graphical and text mode consoles  
   	Search for files  
 	Evaluate and compare the basic file system features and options  
 	Compare and manipulate file content  
