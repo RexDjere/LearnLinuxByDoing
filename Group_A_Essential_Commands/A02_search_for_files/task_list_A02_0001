@@ -1,0 +1,39 @@
+Task List A02_1
+
+
+Tia Fuller is the Director of Artificial Intelligence at Google by Day, and the Lead Alto Saxophonist of the Diva Big Band by Night.
+Today is a slow day at Google, so Tia is trying to find all of the Musescore files (extension .mscz) in her /home/tfuller/Sync directory
+on her work Linux machine so that she can print out some to practice her licks during her lunch break.
+What Linux command would she run?
+find ~/Sync -type f -name "*.mscz"
+
+Michael Jeffrey Jordan is the Executive Director of Cloud Computing at United Computing in Chicago, Illinois.
+It is lunchtime, and Michael is in his office taking 3 point shots on his mini basketball rim.
+After hitting 50 shots in a row, he sits down at his Linux desktop pc.
+He wants to find all files in his current working directory that end with .txt.
+What command will be run?
+find . -name "*.txt"
+
+Michael is also learning the Rust programming language as a hobby.
+He wants to find all files in the /home/mjordan directory that have a .rs extenstion.
+What command will he run?
+find /home/mjordan -type f -name "*.rs"
+
+Bronny James is the Upper Dean of the Women's Basketball Program at the Unversity of Central Florida.
+He is taking courses in Linux System Administration at night.
+He knows that there is a file in his home directory (/home/bjames) called either Linux_Cheat_Sheet.pdf or linux_cheat_sheet.pdf.
+How will he find it?
+find ~ -iname "linux_cheat_sheet.pdf"
+
+Bronny James realizes that he no longer needs his Linux Cheat Sheet. 
+How would he find AND remove it by modifying the command above?
+find ~ -type f -iname "linux_cheat_sheet.pdf" -exec rm {} \;
+
+Otto Link is the Head of Software Development at Hard Rubber Mouthpiece Computing.
+His wants to find all of the files in his home directory (/home/olink) on his Linux workstation 
+that have ONLY read permissions for user, group and other (444).
+What command will he run?
+find ~ -type f -perm 444
+
+
+

@@ -1,0 +1,30 @@
+Task List A03_1
+
+
+Vi Redd is the Lead Developer in the Software Engineering Department at NASA.
+She also plays her alto saxophone in her church's choir.
+She just purchased a Linux laptop from System 76, and she wants to determine in human-readable format what filesystem her laptop uses.
+What command will she run?
+df -Th
+
+-T gives filesystem type
+-h gives human-readable units (e.g. 3.2G, 2.3M and 827G)
+
+
+Etta James is the President of the International Linux Trade Asssociation.
+She also sings in a local jazz band at night.
+Her new Dell desktop pc runs Fedora Linux.
+She suspects that the /dev/sda2 partition has errors.
+What command would she use to check for errors?
+What else would the command do?
+fsck /dev/sda2
+
+The command would also attempt to fix any errors.
+
+Hank Crawford is a Deacon of Mt. Zion Baptist Church, and the Director of Cybernetics at MIT.
+He wants to display all of the block devices on the new Linux server in Classroom 2B.
+What command will he run?
+lsblk -f
+
+
+
