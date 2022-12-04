@@ -1,0 +1,42 @@
+Task List A07_1
+
+
+
+Sonny Stitt is the Director of Cloud Computing at Microsoft by day, 
+and he holds the second alto saxophone chair in the Bill Eckstine Big Band by night.
+He want compress /home/sstitt/Documents into a tar archive called MyDocs.tar.
+What command will he run?
+tar cvf MyDocs.tar ~/Documents
+
+After compressing the folder above, Sonny decides that he wants to use gzip compression.
+How would he alter the command above to use gzip compression?
+tar cvzf MyDocs.tar.gz ~/Documents
+
+Though gzip compressions is very good, Sonny learns that bz2 offers much greater compression ratios.
+How would Sonny change the second command above to use bz2 compression?
+tar cvjf MyDocs.tar.bz2 ~/Documents
+
+Sonny does not want to take anyone's word that bz2 offers greater compression than gzip compressions.
+So on Sunday December 4, 2022, he actually compressed his Documents directory twice:
+the 1st time using gzip compression, the second time using bz2 compression.
+Here are the results:
+1.) no compresssion => tar cvf MyDocs.tar ~/Documents => MyDocs.tar = 108.8 MB
+2.) gzip compression => tar cvzf MyDocs.tar.gz ~/Documents => MyDocs.tar.gz = 66.0 MB
+3.) bz2 compression => tar cvjf MyDocs.tar.bz2 ~/Documents =>	MyDocs.tar.bz2 = 55.4 MB
+
+Ravi Coltrane is the President of the United Federation of Computer Programmers.
+He is also a saxophonist by night, and the President of his local Musicians' Union.
+Ravi has a folder called "Saxophonists" which contains details on 400 saxophonists
+In New York's First Musicians' Union. The folder is currently on his desktop:
+/home/coltrane/Desktop/Saxophonists/
+What command would he run to compress the Saxophonists folder into Saxophonists_20221204.tar
+in his current working directory?
+tar cvf Saxophonists_20221204.tar ~/Desktop/Saxophonists
+
+Ravi, still in his current working directory, now wants to untar Saxophonists_20221204.tar
+to ~/Videos. What command would he run?
+tar xvf Saxophonists_20221204.tar -C ~/Videos
+
+Ravi wants to list the contents of Saxophonists_20221204.tar.
+What command would he use?
+tar tvf Saxophonists_20221204.tar
