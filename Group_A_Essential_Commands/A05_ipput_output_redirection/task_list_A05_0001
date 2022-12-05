@@ -1,0 +1,32 @@
+Task List A05_1
+
+Objective:
+Use input-output redirection (e.g. >, >>, |, 2>)
+
+
+Ella Fitzgerald is the Director of IT at Columbia University.
+She wants to create a new empty file called "forTheDirectorsOnly.txt".
+What command will she run?
+
+Next, Ella wants to redirect the standard output to forDirectorsOnly.txt
+to enter the phrase "This document is Top Secret" into the txt file.
+What command would she use?
+echo "This document is Top Secret" > forDirectorsOnly.txt
+
+What command would Ella run to ensure that forDirectorsOnly.txt has been updated correctly?
+cat forDirectorsOnly
+
+Ella now wants to add this line to forDirectorsOnly.txt:
+"This document must be kept in a secure environment at all times."
+What command would she run to append this line to the txt file?
+echo "This document must be kept in a secure environment at all times." >> forDirectorsOnly.txt
+cat forDirectorsOnly (to verify that the line was added correctly)
+
+Ella now wants to learn how to perform input redirection.
+How would she use input redirection to see only the first line of the txt file?
+What command would she run?
+She would use input redirection with the "head" command.
+head -1 < forDirectorsOnly.txt
+
+
+
