@@ -1,0 +1,15 @@
+Task List A09_1
+
+Objective:
+Create and manage hard and soft links
+
+
+Javier is the President of XYZ Computing.
+He wants to create a hardlink to Myfile.txt called LinktoMyfile.txt.
+What command would he run?
+ln Myfile.txt LinktoMyfile.txt
+
+After creating the link above, he laters decides to create a symbolic link instead.
+How would he alter the command above?
+ln -s Myfile.txt LinktoMyfile.txt
+

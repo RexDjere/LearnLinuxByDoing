@@ -1,5 +1,8 @@
 Task List A01_1
 
+Objective:
+Log into local & remote graphical and text mode consoles
+
 Ptah is logged into his Linux machine. What key combination will he used to switch to virtual terminal 2 (vt2).
 CTRL+ALT+F2
 
@@ -26,5 +29,31 @@ His username is mikebreckersax and his home ip address is 8.8.8.8.
 What command will Michael run on his work Linux machine to login to his home machine?
 ssh mikebreckersax@8.8.8.8
 
+Tiger Woods is the Deputy Director of IT at Florida State University by day, and a 67 handicap golfer by night.
+He has just run a bunch of commands in his terminal emulator, Gnome Terminal.
+He now wants to exit the terminal emulator. List two diferent ways that he can exit.
+1.) Type "exit" and hit the "Enter" key.
+2.) Type CTRL+D.
 
+
+Sharel Cassity is the Senior Machine Learning Executive at Rackspace by day,
+and the lead alto saxophonist of the Diva Big Band by night.
+Her work desktop pc runs Fedora Linux with systemd, and she is studying for her LFCS Exam.
+What command would she execute to determine her default systemd target?
+systemctl get-default
+
+Sharel's current systemd taget is graphical.target.
+How would she change it to multi-user.target?
+She would run two commands:
+1.) sudo systemctl set-default multi-user.target
+2.) sudo systemctl reboot
+
+How do systemd targets correspond to the old Sysv runlevels?
+Runlevel 0 = runlevel0.target = poweroff.target = Power off the Linux machine => command: sudo systemctl isolate poweroff.target
+Runlevel 1 = runlevel1.target = rescue.tartget = Boot into emergency resue mode = Boot into single user mode => command: sudo systemctl isolate rescue.target
+Runlevel 2 = runlevel2.target = multi-user.target = Text based multi-user system => command: sudo systemctl isolate runlevel2.target
+Runlevel 3 = runlevel3.target = multi-user.target = Multi-user text mode => command: sudo systemctl isolate runlevel3.target
+Runlevel 4 = runlevel4.target = multi-user.target = Special purpose text mode => command: sudo systemctl isolate runlevel4.target
+Runlevel 5 = runlevel5.target = graphical.target = GUI display manager => command: sudo systemctl isolate graphical.target
+Runlevel 6 = runlevel6.target = reboot.target =	Reboot the system => command: sudo systemctl isolate reboot.target
 
