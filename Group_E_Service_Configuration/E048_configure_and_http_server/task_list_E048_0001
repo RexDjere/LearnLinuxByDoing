@@ -1,0 +1,32 @@
+Task List E048_1
+
+Objective:
+Cofigure and HTTP server
+
+Alex wants to install the Apache HTTP server package on a Rocky Linux system
+which is similar to a Red Hat Enterprise Linux system.
+What command will he use?
+sudo dnf install httpd
+
+Where does the HTTP server configuration file reside on RHEL-compatible systems?
+/etc/httpd/conf/httpd.conf
+
+Joanne wants to define server 192.168.1.1 in the httpd.conf file.
+She opens the httpd.conf file using nano.
+What line will she enter?
+ServerName 192.168.1.1:80
+
+Oscar wants to start the Apache HTTP server, and configure it to start after a system reboot.
+What 2 commands will he run?
+service http start
+chkconfig httpd on
+
+Oscar now wants to enable HTTP connection requests on port 80 through his firewall.
+What commands will he run?
+iptables -I INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+service iptables save
+
+
+
+
+
