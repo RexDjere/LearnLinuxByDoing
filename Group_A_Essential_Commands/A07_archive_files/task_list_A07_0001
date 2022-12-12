@@ -40,3 +40,37 @@ tar xvf Saxophonists_20221204.tar -C ~/Videos
 Ravi wants to list the contents of Saxophonists_20221204.tar.
 What command would he use?
 tar tvf Saxophonists_20221204.tar
+
+Andre wants to archive /home/andre to andre_archive_20221212.tar. What command would he use?
+tar cvf andre_archive_20221212.tar /home/andre
+
+What are the purposes of the c, v and f flags in the tar command>
+The -c flag is used to create a new .tar archive.
+The -v flag is used to show a verbose output of the tar progress.
+The -f flag is used to name the tar archive file.
+
+Anedra wants to create a compressed gzip archive of /home/anedra.
+What tar flag is associated with gzip compression?
+The -z flag is associate with creating gzip archives using the tar command.
+
+What command would Anedra use to create the gzip archive discussed above?
+She wants the gzip archive to be named anedras_home_directory_20221212.tar.gz.
+tar cvzf anedras_home_directory_20221212.tar.gz /home/anedra
+
+Pedro wants to create a bz2 archive of his home directory?
+What tar flag is associated with bz2 compression?
+The -j flag is associated with bz2 compressed .tar.bz2 archives.
+
+What two file extenstions are equivalent to .bz2?
+.tbz and .tb2 are equivalent to .bz2
+
+Pedro's home directory is /home/pedro.
+He wants to archive his home directory to pedros_20221212_archive.tar.bz2.
+What command will he use?
+tar cvfj pedros_20221212_archive.tar.bz2 /home/pedro
+
+Alex wants to untar alex_archive_20221212.tar to /home/alex/files
+What command will he use?
+tar xvf alex_archive_20221212.tar -C /home/alex?files
+
+
