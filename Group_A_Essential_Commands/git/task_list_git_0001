@@ -1,0 +1,10 @@
+Task List git_1
+
+Lebron James is the Director of IT at the Lakers Academy of Advanced Studies in Los Angeles, California.
+He wants to configure is git global username and email address.
+His desired username is "King James" and his email address is "kingjames@lakers.com".
+What commands would he execute?
+
+git config –global user.name “King James”  
+
+git config –global user.email “kingjames@lakers.com”  
