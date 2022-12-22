@@ -8,3 +8,37 @@ What commands would he execute?
 git config –global user.name “King James”  
 
 git config –global user.email “kingjames@lakers.com”  
+
+Lebron is writing a book called "Moving NBA teams to a Linux-based IT Infrastructure".
+He wants to publish the book under a Creative Commons license, and publish it on Github.
+He creates a directory on his Fedora desktop PC:
+$ mkdir /home/ljames/Documents/MyBook/
+
+What commands will he run to initials his book's git repository?
+$ cd /home/ljames/Documents/MyBook/
+$ git init 
+
+OR he could do it all in one command:
+$ git init /home/ljames/Documents/MyBook/
+
+Lebron James' friend David Sanborn has published a book on Github called "Daily Saxophone Etudes".
+Lebron wants to clone the repo to /home/ljames/Documents/Sanborn_book/
+which is located at https://github.com/dsanborn/dailysaxetudes.git
+What commands will he run?
+
+$ cd /home/ljames/Documents/Sanborn_book/
+$ git clone https://github.com/dsanborn/dailysaxetudes.git
+
+In his current working directory, Lebron has a file called "dunking_over_smaller_players.odt"
+that he wants to add to the git staging area. What command will he run?
+$ git add dunking_over_smaller_players.odt
+
+Lebon wants to make his first commit to his book's git repo.
+He wants to add the commit with the following message:
+"This is my initial git commit".
+What command will he run?
+
+git commit -m "This is my initial commmit".
+
+
+

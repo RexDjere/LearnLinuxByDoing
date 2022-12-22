@@ -28,5 +28,14 @@ What command would she run?
 She would use input redirection with the "head" command.
 head -1 < forDirectorsOnly.txt
 
+Jose is an IT associate at Google and he is learning error redirection.
+What is the file descriptor for STDIN, STDOUT and STDERR?
 
+File				File Descriptor
+Standard Input STDIN		0
+Standard Output STDOUT		1
+Standard Error STDERR		2
 
+Erica is running Program1 and she wants to redirect its output to error_file1.
+What command will she run?
+$ Program1 2>error_file1
