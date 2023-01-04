@@ -1,0 +1,31 @@
+Task List E046_1
+
+
+Objective:
+Configure an IMAP and IMAPS service 
+
+
+Tasha is a Fedora Linux Administrator for the Chicago Public School System.
+She wants to set up an IMAP service for her entire organization.
+Can you send email using IMAP?
+No, IMAP is used only to receive email.
+
+On Fedora, what program will Tasha most likely install to provide IMAP services?
+Dovecot
+
+What command would Tasha issue to install Dovecot on her Fedora Workstation?
+sudo dnf install dovecot
+OR sudo dnf -y install dovecot (if she wants to automatically answer "YES" to all questions)
+
+
+What file will Tasha edit to configure IMAP?
+/etc/dovecot/dovecot.conf
+
+
+Tasha wants to add the imap and pop3 protocols to /etc/dovecot/dovecot.conf.
+What line will she want to ensure the file contains?
+protocols = imap pop3
+
+
+
+
