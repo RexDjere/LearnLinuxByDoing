@@ -35,5 +35,17 @@ that have ONLY read permissions for user, group and other (444).
 What command will he run?
 find ~ -type f -perm 444
 
+Wylie is a Linux Administrator at Unix Works, a company in Washington DC.
+He wants to view the permissions on the executable file /usr/bin/passwd.
+What command will he run?
+ls -l /usr/bin/passwd
 
+Wylie finds that SUID is set for /usr/bin/passwd.
+How did he know this?
+SUID stands for Set User ID.
+When he ran ls -l /usr/bin/passwd, he looked at the output:
+-rwsr-xr-x 1 root root 17154 Jan 03 2023 /usr/bin/passwd
+The s in -rws indicates that the SUID bit is set.
+This means that anyone on the system executing /usr/bin/passwd 
+will be able to execute it as though they were the owner of /usr/bin/passwd.
 
