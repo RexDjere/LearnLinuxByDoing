@@ -1,0 +1,17 @@
+Task List A01_1
+
+Objective:
+Start, stop, and check the status of network services  
+
+Adrienne is ther Chief Executive Officer at Think Tank Computing.
+Her Linux skills are a little bit rusty.
+She wants to get back to her glory days as a Linux sysadmin.
+She wants to list all loaded service units in systemd.
+What command will she execute?
+systemctl list-units --type service --all
+
+Adrienne then wants to see which service units are enabled.
+Which command will she run?
+systemctl list-unit-files --type service
+
+
