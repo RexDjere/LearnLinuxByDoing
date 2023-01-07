@@ -1,0 +1,21 @@
+Task List C029_1
+
+Objective:
+Create, delete, and modify local user accounts 
+
+Arnold Palmer is a pro golfer by day, and a Linux sysadmin at PGA headquarters by night.
+Tiger Woods just arrived as a new employee.
+Arnold's task: create a new account for Tiger on the main Linux system:
+1.) username = woods_tiger
+2.) user id = 1050
+3.) group id = 1050
+4.) primary group = woods_tiger
+4.) also add him to group "pro_golfers"
+5.) shell = /bin/bash
+6.) home directory = /home/woods_tiger
+What command will Arnold Palmer run to add Tiger to the Linux system?
+sudo adduser woods_tiger --shell /bin/bash --home-dir /home/woods_tiger --gid pro_golfers --uid 1050 --name TigerWoods
+OR
+sudo useradd tigerwoods --shell /bin/bash --home-dir /home/tigerwoods --group pro_golfers --uid 1050 --name TigerWoods
+
+
